@@ -1,4 +1,10 @@
 #!/bin/bash
+#
+# Usage: 
+# sh ~/Documents/Bash/git-merge.sh
+# Alias:
+# alias merge='sh ~/Documents/Bash/git-merge.sh'
+#
 echo ''
 echo 'How to do a git merge in Vim:'
 echo ''
