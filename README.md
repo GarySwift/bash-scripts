@@ -1,10 +1,8 @@
 # Bash Scripts
 
-Located in `~/Documents/Bash`
+### Example Usage - use an alias to to run the `git-merge.sh` script located in `~/Documents/Bash/`.
 
-### Example Usage
-
-Create a new directory in Documents folder. [mkdir -p](http://pubs.opengroup.org/onlinepubs/009695399/utilities/mkdir.html)
+Create a [new directory](http://pubs.opengroup.org/onlinepubs/009695399/utilities/mkdir.html) in Documents folder.
 
 ```
 mkdir -p ~/Documents/Bash && cd $_
@@ -50,6 +48,4 @@ How to do a git merge in Vim:
 https://stackoverflow.com/questions/19085807/please-enter-a-commit-message-to-explain-why-this-merge-is-necessary-especially
 mac@~$ 
 ```
-
-This uses an alias to to run the `git-merge.sh` script located in `~/Documents/Bash/`.
 
