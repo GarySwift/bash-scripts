@@ -1,6 +1,7 @@
 # Bash Scripts
 
-### Example Usage - use an alias to to run the `git-merge.sh` script located in `~/Documents/Bash/`.
+### Example Usage
+Use an alias to to run the `git-merge.sh` script located in `~/Documents/Bash/`.
 
 Create a [new directory](http://pubs.opengroup.org/onlinepubs/009695399/utilities/mkdir.html) in Documents folder.
 
