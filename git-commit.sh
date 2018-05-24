@@ -1,6 +1,4 @@
 #!/bin/bash
-# echo 'git status'
-# git status
 clear
 echo 'git add .'
 git add .
