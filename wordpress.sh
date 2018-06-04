@@ -149,6 +149,7 @@ echo
 
 printf "${GREEN}${bold}Confirm? ${normal}${NC}[y/N] "
 read verfiy
+
 # Check result
 if [[ $verfiy =~ ^[Yy]$ ]]
 then
@@ -165,6 +166,12 @@ then
 	# wp config create --dbhost=$DBHOST --dbname=$db --dbuser=$DBUSER --dbpass=$DBPASS
 	wp db create
 	rm wp-config.php
+	# Make changes to the wp-config-sample.php
+	# Turn on\/off Wordpress debugging (and log it in debug.log)
+	sh ~/bash-scripts/wordpress-debug.sh
+	# Change the Default WordPress Uploads Folder to assets
+	sh ~/bash-scripts/wordpress-assets.sh
+
 	echo "\n${GREEN}${bold}Good News${normal}${NC}"
 	echo "You downloaded the latest WordPress core into ${bold}"$location"public${normal}"
 	echo "You have created the empty database ${bold}"$db"${normal} in the Mamp Pro SQL database directory."
@@ -200,6 +207,7 @@ then
 		git clone $DEAFALT_REPO $themename
 		cd $themename
 		npm install
+		subl $location"/public/wp-content/themes/"$themename
 	fi	
 	echo "${GREEN}${bold}Next${normal}${NC}"
 	echo "cd "$root
