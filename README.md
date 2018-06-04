@@ -13,7 +13,7 @@ mkdir -p ~/Documents/Bash && cd $_
 Clone this repo into the new directory.
 
 ```
-git clone https://github.com/GarySwift/bash-scripts
+git -C ~/ clone https://github.com/GarySwift/bash-scripts.git && cd ~/bash-scripts && ls -1
 ```
 
 Open bash_profile
