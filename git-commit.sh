@@ -1,5 +1,7 @@
 #!/bin/bash
 clear
+echo 'git remote -v'
+git remote -v
 echo 'git add .'
 git add .
 echo 'git status'
