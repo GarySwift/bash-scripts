@@ -1,3 +1,4 @@
+
 # Bash Scripts
 
 ### Installation
@@ -43,3 +44,28 @@ https://stackoverflow.com/questions/19085807/please-enter-a-commit-message-to-ex
 mac@~$ 
 ```
 
+### Environment Variables
+
+Some scripts such as `wordpress.sh` require a hidden `.env` file that is not saved in version control. You should create this using the following:
+
+```
+touch ~/bash-scripts/.env && open ~/bash-scripts/.env
+```
+
+This should store the variables shown below (fill in your own details):
+
+```
+export DEFAULT_DIR="~/Code"
+export DEAFALT_CODE_DIR=/Users/YOUR_USER_NAME/Code
+
+export DEFAULT_TITLE="WordPress Site"
+export DEFAULT_EMAIL=
+export DEFAULT_USER=
+export DEFAULT_PASSWORD=
+ 
+export DBHOST=localhost
+export DBUSER=
+export DBPASS=  
+
+export DEAFALT_REPO="https://github.com/olefredrik/FoundationPress.git"
+```
