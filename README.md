@@ -1,20 +1,13 @@
 # Bash Scripts
 
-### Example Usage
-Use an alias to to run the `git-merge.sh` script located in `~/Documents/Bash/`.
-
-Create a [new directory](http://pubs.opengroup.org/onlinepubs/009695399/utilities/mkdir.html) in Documents folder.
-
-```
-mkdir -p ~/Documents/Bash && cd $_
-
-```
-
+### Installation
 Clone this repo into the new directory.
 
 ```
 git -C ~/ clone https://github.com/GarySwift/bash-scripts.git && cd ~/bash-scripts && ls -1
 ```
+
+### Example Usage
 
 Open bash_profile
 
@@ -33,7 +26,7 @@ Restart terminal
 Type `merge` in any terminal window and return
 
 
-### Result:
+#### Result:
 
 ```
 mac@~$ merge
