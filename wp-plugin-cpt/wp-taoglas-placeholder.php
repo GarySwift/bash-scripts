@@ -11,6 +11,7 @@ License: GPL2
 
 # Global variables
 define("ENQUEUE_PLACEHOLDER_CPT_STYLE", false);
+define("ENQUEUE_PLACEHOLDER_CPT_SCRIPT", false);
 # CPT
 require_once plugin_dir_path( __FILE__ ) . 'cpt/placeholder.php';
 # ACF Fields
